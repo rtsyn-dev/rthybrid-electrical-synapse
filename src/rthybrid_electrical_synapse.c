@@ -12,31 +12,31 @@
         static const rtsyn_abi_port_descriptor_t rtsyn_rthybrid_electrical_synapse_ports[RTSYN_RTHYBRID_ELECTRICAL_SYNAPSE_PORT_COUNT] = {
             [RTSYN_RTHYBRID_ELECTRICAL_SYNAPSE_PORT_POST_SYNAPTIC_VOLTAGE_V] =
         {
-            .name = "Post-synaptic Voltage (V)",
+            .name = "post_synaptic_voltage_v",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_ELECTRICAL_SYNAPSE_PORT_PRE_SYNAPTIC_VOLTAGE_V] =
         {
-            .name = "Pre-synaptic Voltage (V)",
+            .name = "pre_synaptic_voltage_v",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_ELECTRICAL_SYNAPSE_PORT_SCALE_PRE_TO_POST] =
         {
-            .name = "Scale (Pre to Post)",
+            .name = "scale_pre_to_post",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_ELECTRICAL_SYNAPSE_PORT_OFFSET_PRE_TO_POST] =
         {
-            .name = "Offset (Pre to Post)",
+            .name = "offset_pre_to_post",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_ELECTRICAL_SYNAPSE_PORT_CURRENT_NA] =
         {
-            .name = "Current (nA)",
+            .name = "current_na",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_OUT,
         },
