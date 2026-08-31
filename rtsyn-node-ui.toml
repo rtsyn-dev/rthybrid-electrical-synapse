@@ -1,0 +1,55 @@
+name = "RTHybrid Electrical Synapse"
+        description = "Computes an electrical synapse current from pre and post voltages."
+
+[[controls]]
+name = "g_us"
+label = "G Us"
+kind = "number"
+target = "param"
+param_id = 0
+value_type = "f64"
+default = "0.0"
+
+
+[[indicators]]
+name = "post_v"
+label = "Post V"
+target = "state"
+state_id = 0
+value_type = "f64"
+
+[[indicators]]
+name = "pre_v"
+label = "Pre V"
+target = "state"
+state_id = 1
+value_type = "f64"
+
+[[indicators]]
+name = "scale"
+label = "Scale"
+target = "state"
+state_id = 2
+value_type = "f64"
+
+[[indicators]]
+name = "offset"
+label = "Offset"
+target = "state"
+state_id = 3
+value_type = "f64"
+
+[[indicators]]
+name = "g_us"
+label = "G Us"
+target = "state"
+state_id = 4
+value_type = "f64"
+
+[[indicators]]
+name = "current"
+label = "Current"
+target = "state"
+state_id = 5
+value_type = "f64"
+
